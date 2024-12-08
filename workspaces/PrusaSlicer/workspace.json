@@ -1,0 +1,20 @@
+{
+  "friendly_name": "PrusaSlicer",
+  "image_src": "blob:https://martynvdijke.github.io/131b5e0f-f4ca-4155-ad1d-1f4b6f2d4eec",
+  "description": "Prusa Slicer",
+  "name": "martynvandijke/kasm-prusa:latest",
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "docker_registry": "https://index.docker.io/v1/",
+  "categories": [
+    "Productivity"
+  ],
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container",
+  "architecture": [
+    "amd64"
+  ]
+}
