@@ -2,7 +2,6 @@
   "friendly_name": "SoundbridgeFx",
   "image_src": "soundbridgefx.png",
   "description": "LedFx Spotify Sonos Proxy",
-  "name": "martynvandijke/soundbridgefx:latest",
   "cores": 2,
   "memory": 2768,
   "gpu_count": 0,
@@ -21,10 +20,13 @@
     "amd64"
   ],
   "compatibility": [
-    "1.13.x",
-    "1.14.x",
-    "1.15.x",
-    "1.16.x"
-  ],
-  "uncompressed_size_mb": 2170
+    {
+      "version": "1.16.x",
+      "image": "martynvandijke/soundbridgefx:latest",
+      "uncompressed_size_mb": 2643,
+      "available_tags": [
+        "latest"
+      ]
+    }
+  ]
 }

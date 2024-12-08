@@ -2,7 +2,6 @@
   "friendly_name": "PrusaSlicer",
   "image_src": "prusaslicer.png",
   "description": "Prusa Slicer",
-  "name": "martynvandijke/kasm-prusa:latest",
   "cores": 2,
   "memory": 2768,
   "gpu_count": 0,
@@ -18,9 +17,13 @@
     "amd64"
   ],
   "compatibility": [
-    "1.13.x",
-    "1.14.x",
-    "1.15.x",
-    "1.16.x"
+    {
+      "version": "1.16.x",
+      "image": "martynvandijke/kasm-prusa:latest",
+      "uncompressed_size_mb": 2643,
+      "available_tags": [
+        "latest"
+      ]
+    }
   ]
 }
