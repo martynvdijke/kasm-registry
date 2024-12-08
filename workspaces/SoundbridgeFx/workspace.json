@@ -1,6 +1,6 @@
 {
   "friendly_name": "SoundbridgeFx",
-  "image_src": "blob:https://martynvdijke.github.io/8d7a8d27-86c3-4e14-a4e4-088bfeec1dae",
+  "image_src": "soundbridgefx.png",
   "description": "SoundbridgeFx",
   "name": "martynvandijke/soundbridgefx",
   "cores": 2,

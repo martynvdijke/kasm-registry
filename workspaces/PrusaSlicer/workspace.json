@@ -1,6 +1,6 @@
 {
   "friendly_name": "PrusaSlicer",
-  "image_src": "blob:https://martynvdijke.github.io/131b5e0f-f4ca-4155-ad1d-1f4b6f2d4eec",
+  "image_src": "prusaslicer.png",
   "description": "Prusa Slicer",
   "name": "martynvandijke/kasm-prusa:latest",
   "cores": 2,
