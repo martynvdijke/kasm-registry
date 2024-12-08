@@ -1,22 +1,19 @@
 {
-  "friendly_name": "SoundbridgeFx",
-  "image_src": "soundbridgefx.png",
-  "description": "LedFx Spotify Sonos Proxy",
-  "name": "martynvandijke/soundbridgefx:latest",
+  "friendly_name": "PrusaSlicer",
+  "image_src": "prusaslicer.png",
+  "description": "Prusa Slicer",
+  "name": "martynvandijke/kasm-prusa:latest",
   "cores": 2,
   "memory": 2768,
   "gpu_count": 0,
   "cpu_allocation_method": "Inherit",
   "docker_registry": "https://index.docker.io/v1/",
   "categories": [
-    "Multimedia"
+    "Productivity"
   ],
   "require_gpu": false,
   "enabled": true,
   "image_type": "Container",
-  "run_config": {
-    "hostname": "kasm"
-  },
   "architecture": [
     "amd64"
   ],
@@ -25,6 +22,5 @@
     "1.14.x",
     "1.15.x",
     "1.16.x"
-  ],
-  "uncompressed_size_mb": 2170
+  ]
 }
