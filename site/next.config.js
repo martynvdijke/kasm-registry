@@ -2,8 +2,8 @@
 
 const nextConfig = {
   env: {
-    name: 'Kasm workspaces',
-    description: 'Kasm workspaces',
+    name: 'Kasm vandijke.xyz',
+    description: 'Kasm vandijke.xyz',
     icon: 'Kasm workspaces',
     listUrl: 'https://martynvdijke.github.io/kasm-registry/',
     contactUrl: 'https://vandijke.xyz/support',
