@@ -1,6 +1,6 @@
 {
-  "friendly_name": "PrusaSlicer",
-  "image_src": "prusaslicer.png",
+  "friendly_name": "Cura",
+  "image_src": "cura.png",
   "description": "Prusa Slicer",
   "cores": 2,
   "memory": 2768,
@@ -19,7 +19,7 @@
   "compatibility": [
     {
       "version": "1.16.x",
-      "image": "martynvandijke/kasm-prusa:latest",
+      "image": "martynvandijke/kasm-cura:latest",
       "uncompressed_size_mb": 2643,
       "available_tags": [
         "latest"
