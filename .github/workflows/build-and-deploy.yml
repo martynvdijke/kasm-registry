@@ -24,3 +24,22 @@ jobs:
         with:
           branch: gh-pages
           folder: public
+
+      - name: Gotify Success Notification
+        if: success()
+        uses: eikendev/gotify-action@master
+        with:
+          gotify_api_base: ${{ secrets.GOTIFY_API_BASE }}
+          gotify_app_token: ${{ secrets.GOTIFY_APP_TOKEN }}
+          notification_title: 'Build & Deploy Successful - kasm-registry'
+          notification_message: 'Site built and deployed to GitHub Pages successfully.'
+
+      - name: Gotify Failure Notification
+        if: failure()
+        uses: eikendev/gotify-action@master
+        with:
+          gotify_api_base: ${{ secrets.GOTIFY_API_BASE }}
+          gotify_app_token: ${{ secrets.GOTIFY_APP_TOKEN }}
+          notification_title: 'Build & Deploy Failed - kasm-registry'
+          notification_message: 'The build and deploy workflow has failed. ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}'
+          notification_priority: 5
